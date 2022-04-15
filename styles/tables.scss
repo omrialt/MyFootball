@@ -1,0 +1,75 @@
+@import "main";
+
+
+
+select {
+    margin: 20px;
+    width: 25vw;
+}
+
+label {
+    font-weight: bold;
+    margin: 20px;
+}
+
+#name_l {
+    border-top: 2px solid white;
+}
+
+.img-table {
+    height: 20px;
+    width: 20px;
+}
+
+#wins,
+#draws,
+#lose,
+#goals,
+#pt {
+    cursor: pointer;
+}
+
+#wins:hover,
+#draws:hover,
+#lose:hover,
+#goals:hover,
+#pt:hover {
+    color: yellow;
+}
+
+
+#champions-le,
+.promotion {
+    color: green;
+}
+
+.promotion-,
+.bundesliga {
+    color: rgb(184, 187, 25);
+}
+
+#europa-leagu {
+    color: rgb(255, 0, 183);
+}
+
+#europa-confe {
+    color: rgb(213, 96, 33);
+}
+
+.champ {
+    color: rgb(39, 16, 245) !important;
+    font-weight: bold;
+}
+
+.relegation {
+    color: red;
+}
+
+@media only screen and (max-width:778px) {
+
+    html,
+    body {
+        overflow-x: visible !important
+    }
+
+}

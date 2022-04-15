@@ -1,0 +1,61 @@
+$colorToBack:linear-gradient(to top left, rgb(4, 0, 0), rgb(157, 159, 157), white);
+$colorToBack2:linear-gradient(to top left, rgb(250, 245, 245), rgb(127, 198, 127));
+
+//all site elements
+html,
+body {
+    max-width: 100%;
+    overflow: visible;
+    overflow-x: hidden;
+    position: relative;
+    background: $colorToBack;
+}
+
+
+
+nav {
+
+    font-weight: bold;
+    font-size: 1.2rem;
+    background: $colorToBack2;
+
+    .nav-links {
+        color: black;
+        margin: 2px;
+        text-decoration: none;
+        padding-left: 50px;
+    }
+
+    .nav-links:hover {
+        color: green;
+        text-decoration: underline;
+    }
+
+    .foract {
+        color: yellow
+    }
+
+}
+
+
+
+
+.fot {
+    position: absolute;
+    bottom: -5;
+    width: 100vw;
+    background: $colorToBack2;
+
+    footer span,
+    footer svg {
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+    }
+
+    footer svg:hover {
+        color: white;
+        transform: scale(1.2);
+    }
+
+}

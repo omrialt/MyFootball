@@ -1,0 +1,54 @@
+html,
+body {
+  max-width: 100%;
+  overflow: visible;
+  overflow-x: hidden;
+  position: relative;
+  background: -webkit-gradient(linear, right bottom, left top, from(#040000), color-stop(#9d9f9d), to(white));
+  background: linear-gradient(to top left, #040000, #9d9f9d, white);
+}
+
+nav {
+  font-weight: bold;
+  font-size: 1.2rem;
+  background: -webkit-gradient(linear, right bottom, left top, from(#faf5f5), to(#7fc67f));
+  background: linear-gradient(to top left, #faf5f5, #7fc67f);
+}
+
+nav .nav-links {
+  color: black;
+  margin: 2px;
+  text-decoration: none;
+  padding-left: 50px;
+}
+
+nav .nav-links:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+nav .foract {
+  color: yellow;
+}
+
+.fot {
+  position: absolute;
+  bottom: -5;
+  width: 100vw;
+  background: -webkit-gradient(linear, right bottom, left top, from(#faf5f5), to(#7fc67f));
+  background: linear-gradient(to top left, #faf5f5, #7fc67f);
+}
+
+.fot footer span,
+.fot footer svg {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.fot footer svg:hover {
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=main.css.map */

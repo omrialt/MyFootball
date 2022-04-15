@@ -1,0 +1,100 @@
+@import "main";
+
+
+
+
+h1,
+h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+.desc {
+    font-size: 24px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.row {
+    justify-content: space-around;
+    display: flex;
+
+    .card {
+        width: 30vw;
+        background: $colorToBack2;
+        margin-top: 20px;
+        border: 2px solid white;
+    }
+}
+
+
+.center {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+    button {
+        border: none;
+        background: none;
+    }
+
+    button:hover {
+        color: yellow;
+    }
+}
+
+#search-bar,
+select {
+    margin: 30px;
+    height: 30px;
+    width: 220px;
+
+}
+
+label {
+    font-weight: bold;
+    margin: 20px;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:778px) {
+    form {
+        flex-direction: column;
+    }
+
+    .row {
+        .card {
+            width: 100vw;
+
+            .card-body div {
+                height: 25vh !important
+            }
+        }
+
+    }
+
+    #search-bar,
+    select {
+        margin: 14px;
+        height: 30px;
+        width: 170px;
+
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .desc {
+        font-size: 14px;
+    }
+}

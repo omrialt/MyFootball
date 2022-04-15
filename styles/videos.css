@@ -1,0 +1,143 @@
+html,
+body {
+  max-width: 100%;
+  overflow: visible;
+  overflow-x: hidden;
+  position: relative;
+  background: -webkit-gradient(linear, right bottom, left top, from(#040000), color-stop(#9d9f9d), to(white));
+  background: linear-gradient(to top left, #040000, #9d9f9d, white);
+}
+
+nav {
+  font-weight: bold;
+  font-size: 1.2rem;
+  background: -webkit-gradient(linear, right bottom, left top, from(#faf5f5), to(#7fc67f));
+  background: linear-gradient(to top left, #faf5f5, #7fc67f);
+}
+
+nav .nav-links {
+  color: black;
+  margin: 2px;
+  text-decoration: none;
+  padding-left: 50px;
+}
+
+nav .nav-links:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+nav .foract {
+  color: yellow;
+}
+
+.fot {
+  position: absolute;
+  bottom: -5;
+  width: 100vw;
+  background: -webkit-gradient(linear, right bottom, left top, from(#faf5f5), to(#7fc67f));
+  background: linear-gradient(to top left, #faf5f5, #7fc67f);
+}
+
+.fot footer span,
+.fot footer svg {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.fot footer svg:hover {
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+h1,
+h3 {
+  text-align: center;
+  margin: 20px;
+}
+
+.desc {
+  font-size: 24px;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row .card {
+  width: 30vw;
+  background: -webkit-gradient(linear, right bottom, left top, from(#faf5f5), to(#7fc67f));
+  background: linear-gradient(to top left, #faf5f5, #7fc67f);
+  margin-top: 20px;
+  border: 2px solid white;
+}
+
+.center {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.center button {
+  border: none;
+  background: none;
+}
+
+.center button:hover {
+  color: yellow;
+}
+
+#search-bar,
+select {
+  margin: 30px;
+  height: 30px;
+  width: 220px;
+}
+
+label {
+  font-weight: bold;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (max-width: 778px) {
+  form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .row .card {
+    width: 100vw;
+  }
+  .row .card .card-body div {
+    height: 25vh !important;
+  }
+  #search-bar,
+  select {
+    margin: 14px;
+    height: 30px;
+    width: 170px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .desc {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=videos.css.map */
